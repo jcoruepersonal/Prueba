@@ -39,6 +39,9 @@ function Operacion(op, n1, n2)
                     alert('La division es ' + resultado);
                 }                
                 break;
+				
+				
+				
 
         }
 
