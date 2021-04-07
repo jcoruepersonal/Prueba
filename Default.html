@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Calculadora</title>
+    <script type="text/javascript" src="Funciones.js"></script>
+</head>
+<body>
+    <h1>Calculadora</h1>
+     <form name="form_calculadora">
+        <div>
+            <label>Numero 1:</label>
+            <input name="numero1" id="numero1" type="number" />
+        </div>
+        <div>
+            <label>Numero 2:</label>
+            <input name="numero2" id="numero2" type="number"  />
+        </div>
+         <br />
+        <div>
+            <button onclick="Operacion('suma',document.form_calculadora.numero1.value,document.form_calculadora.numero2.value)">Sumar</button>
+            <button onclick="Operacion('resta',document.form_calculadora.numero1.value,document.form_calculadora.numero2.value)">Restar</button>
+            <button onclick="Operacion('multiplicacion',document.form_calculadora.numero1.value,document.form_calculadora.numero2.value)">Multiplicar</button>
+            <button onclick="Operacion('division',document.form_calculadora.numero1.value,document.form_calculadora.numero2.value)">Dividir</button>
+        </div>
+    </form>
+
+    
+</body>
+</html>
